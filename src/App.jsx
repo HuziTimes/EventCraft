@@ -4,6 +4,9 @@ import Dashboard from './pages/Dashboard';
 import EventBuilder from './pages/EventBuilder';
 import AgendaPlanner from './pages/AgendaPlanner';
 import TicketsRegistration from './pages/TicketsRegistration';
+import Attendees from './pages/Attendees';
+import Analytics from './pages/Analytics';
+import Settings from './pages/Settings';
 
 function App() {
   return (
@@ -15,7 +18,9 @@ function App() {
           <Route path="events/create" element={<EventBuilder />} />
           <Route path="events/:id/agenda" element={<AgendaPlanner />} />
           <Route path="events/:id/tickets" element={<TicketsRegistration />} />
-          {/* Add more routes as we build */}
+          <Route path="attendees" element={<Attendees />} />
+          <Route path="analytics" element={<Analytics />} />
+          <Route path="settings" element={<Settings />} />
         </Route>
       </Routes>
     </Router>

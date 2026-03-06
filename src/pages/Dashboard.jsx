@@ -20,7 +20,7 @@ const Dashboard = () => {
         <div className="space-y-6 animate-fade-in">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                 <div>
-                    <h1 className="text-2xl font-bold text-gray-900 tracking-tight">Welcome back, John 👋</h1>
+                    <h1 className="text-2xl font-bold text-gray-900 tracking-tight">Welcome back, Zain 👋</h1>
                     <p className="text-sm text-gray-500 mt-1">Here is what's happening with your events today.</p>
                 </div>
                 <Link to="/events/create" className="btn-primary w-full md:w-auto">

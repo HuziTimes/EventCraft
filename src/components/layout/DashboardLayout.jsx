@@ -67,10 +67,10 @@ const DashboardLayout = () => {
                         </div>
                         <div className="flex items-center gap-3 mt-6 px-4">
                             <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-brand-400 to-brand-600 flex items-center justify-center text-white font-semibold text-sm">
-                                JD
+                                ZA
                             </div>
                             <div className="flex flex-col">
-                                <span className="text-sm font-medium text-gray-900">John Doe</span>
+                                <span className="text-sm font-medium text-gray-900">Zain Ahmed</span>
                                 <span className="text-xs text-gray-500">Event Organizer</span>
                             </div>
                         </div>
